@@ -6,7 +6,7 @@ Identifying your business goals
   Background: 
     None of us wants to be the fool of the group. People don't want to stand out as the one that doesn't know certain facts about the subjects that others might find elementary knowledge.
   For us that is the arts. It's something interesting and beautiful to look at, but when it comes to discussing authors or art theory, we do seem to get lost. Most times, the most difficult part
-  of art is recognizing the artist by just looking at the painting. Many concider this to be quite easy. But there are many people who need som
+  of art is recognizing the artist by just looking at the painting. Many concider this to be quite easy. But there are many people who need some help to differate Monet from Manet and impressionism from expressionism.
   Business goals: 
     We are trying to create a helpful tool, that identifies the painter and the art movement of the painting, it has been given.
   Business success criteria:
@@ -14,7 +14,8 @@ Identifying your business goals
     of the school project.
 Assessing your situation
   Inventory of resources :
-    Resources for this project is two students, who take 'Introduction to data mining' and the knowledge they have obtained from that course.
+    Resources for this project are two students, who take 'Introduction to Data Mining' and the knowledge they have obtained from that course.
+    We use the data from the kaggle website containing the artwork of the 50 best painters of all time. 
   Requirements, assumptions, and constraints
 Risks and contingencies
   Terminology
@@ -27,9 +28,12 @@ Defining your data-mining goals
 DATA UNDERSTANDING:
 Gathering data
   Outline data requirements
-  Verify data availability
+  Verify data availability:
+    The data is available on the kaggle website and free to download. It was originally from the website artchallenge.ru, where it's possible to guess the artist by the painting.
+    It should be possible to get 100% in that website when using our created tool. 
   Define selection criteria
-Describing data
+Describing data:
+   The data contains over 8000 paintings from 50 artists. It has data for each artist (main genre, lifetime, nationality etc), contains full size pictures and also resized pictures.
 Exploring data
 Verifying data quality
 
