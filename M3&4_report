@@ -34,5 +34,15 @@ Exploring data
 Verifying data quality
 
 PLANNING THE PROJECT:
-Make a detailed plan of your project with a list of tasks. There should be at least 5 tasks. Specify how many hours each team member is going to contribute to each task.
-List the methods and tools that you plan to use. Add any comments about the tasks that you think are important to clarify.
+Task List:
+ 1) Make data usable for our purpose (read in pictures as pixels)
+ 2) Write script which can read in the data in more effective way, so we can use it further 
+ 3) Train models on training data just to try to predict the art movement
+ 4) Train models on training data just to try to predict (or confirm) one author
+ 5) Test models on larger data (more authors and movements)
+Methods and tools we plan to use:
+  1) Jupyter Notebook will be our main rescourse in this particular project
+  2) We use GitHub to make coding together more simpler
+  3) As a comment for the second task, we'll choose random patches from the painting, so we don't have to use all the data and not overwhelm the program
+  4) And we try to move gradually from predicting just the art movement to predicting actual authors
+
